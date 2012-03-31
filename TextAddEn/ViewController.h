@@ -22,7 +22,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *myimage;
 
 @property (weak, nonatomic) IBOutlet UIImageView *myimage2;
-//特定の文字列を特定の文字列に加える
+//特定の文字列を入力された文字列に加えたり削除したものを表示
 @property (weak, nonatomic) IBOutlet UILabel *Add;
 
 
