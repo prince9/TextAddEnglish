@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66338B3215276C2800361A72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66338B3115276C2800361A72 /* UIKit.framework */; };
+		66338B3415276C2800361A72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66338B3315276C2800361A72 /* Foundation.framework */; };
+		66338B3615276C2800361A72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66338B3515276C2800361A72 /* CoreGraphics.framework */; };
+		66338B3C15276C2800361A72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66338B3A15276C2800361A72 /* InfoPlist.strings */; };
+		66338B3E15276C2800361A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66338B3D15276C2800361A72 /* main.m */; };
+		66338B4215276C2800361A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66338B4115276C2800361A72 /* AppDelegate.m */; };
+		66338B4515276C2800361A72 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66338B4315276C2800361A72 /* MainStoryboard.storyboard */; };
+		66338B4815276C2800361A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66338B4715276C2800361A72 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66338B2D15276C2800361A72 /* TextAddEn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextAddEn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66338B3115276C2800361A72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66338B3315276C2800361A72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66338B3515276C2800361A72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66338B3915276C2800361A72 /* TextAddEn-Info.plist */ = {isa = PBXFileReference; path = "TextAddEn-Info.plist"; sourceTree = "<group>"; };
+		66338B3B15276C2800361A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66338B3D15276C2800361A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66338B3F15276C2800361A72 /* TextAddEn-Prefix.pch */ = {isa = PBXFileReference; path = "TextAddEn-Prefix.pch"; sourceTree = "<group>"; };
+		66338B4015276C2800361A72 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		66338B4115276C2800361A72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66338B4415276C2800361A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		66338B4615276C2800361A72 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		66338B4715276C2800361A72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66338B2A15276C2800361A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66338B3215276C2800361A72 /* UIKit.framework in Frameworks */,
+				66338B3415276C2800361A72 /* Foundation.framework in Frameworks */,
+				66338B3615276C2800361A72 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66338B2215276C2800361A72 = {
+			isa = PBXGroup;
+			children = (
+				66338B3715276C2800361A72 /* TextAddEn */,
+				66338B3015276C2800361A72 /* Frameworks */,
+				66338B2E15276C2800361A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66338B2E15276C2800361A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66338B2D15276C2800361A72 /* TextAddEn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66338B3015276C2800361A72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66338B3115276C2800361A72 /* UIKit.framework */,
+				66338B3315276C2800361A72 /* Foundation.framework */,
+				66338B3515276C2800361A72 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66338B3715276C2800361A72 /* TextAddEn */ = {
+			isa = PBXGroup;
+			children = (
+				66338B4015276C2800361A72 /* AppDelegate.h */,
+				66338B4115276C2800361A72 /* AppDelegate.m */,
+				66338B4315276C2800361A72 /* MainStoryboard.storyboard */,
+				66338B4615276C2800361A72 /* ViewController.h */,
+				66338B4715276C2800361A72 /* ViewController.m */,
+				66338B3815276C2800361A72 /* Supporting Files */,
+			);
+			path = TextAddEn;
+			sourceTree = "<group>";
+		};
+		66338B3815276C2800361A72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66338B3915276C2800361A72 /* TextAddEn-Info.plist */,
+				66338B3A15276C2800361A72 /* InfoPlist.strings */,
+				66338B3D15276C2800361A72 /* main.m */,
+				66338B3F15276C2800361A72 /* TextAddEn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66338B2C15276C2800361A72 /* TextAddEn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66338B4B15276C2800361A72 /* Build configuration list for PBXNativeTarget "TextAddEn" */;
+			buildPhases = (
+				66338B2915276C2800361A72 /* Sources */,
+				66338B2A15276C2800361A72 /* Frameworks */,
+				66338B2B15276C2800361A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextAddEn;
+			productName = TextAddEn;
+			productReference = 66338B2D15276C2800361A72 /* TextAddEn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66338B2415276C2800361A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 66338B2715276C2800361A72 /* Build configuration list for PBXProject "TextAddEn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66338B2215276C2800361A72;
+			productRefGroup = 66338B2E15276C2800361A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66338B2C15276C2800361A72 /* TextAddEn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66338B2B15276C2800361A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66338B3C15276C2800361A72 /* InfoPlist.strings in Resources */,
+				66338B4515276C2800361A72 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66338B2915276C2800361A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66338B3E15276C2800361A72 /* main.m in Sources */,
+				66338B4215276C2800361A72 /* AppDelegate.m in Sources */,
+				66338B4815276C2800361A72 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66338B3A15276C2800361A72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66338B3B15276C2800361A72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66338B4315276C2800361A72 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66338B4415276C2800361A72 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66338B4915276C2800361A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66338B4A15276C2800361A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66338B4C15276C2800361A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextAddEn/TextAddEn-Prefix.pch";
+				INFOPLIST_FILE = "TextAddEn/TextAddEn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66338B4D15276C2800361A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextAddEn/TextAddEn-Prefix.pch";
+				INFOPLIST_FILE = "TextAddEn/TextAddEn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66338B2715276C2800361A72 /* Build configuration list for PBXProject "TextAddEn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66338B4915276C2800361A72 /* Debug */,
+				66338B4A15276C2800361A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66338B4B15276C2800361A72 /* Build configuration list for PBXNativeTarget "TextAddEn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66338B4C15276C2800361A72 /* Debug */,
+				66338B4D15276C2800361A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66338B2415276C2800361A72 /* Project object */;
+}
