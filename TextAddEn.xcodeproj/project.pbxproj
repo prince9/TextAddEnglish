@@ -15,6 +15,9 @@
 		66338B4215276C2800361A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66338B4115276C2800361A72 /* AppDelegate.m */; };
 		66338B4515276C2800361A72 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66338B4315276C2800361A72 /* MainStoryboard.storyboard */; };
 		66338B4815276C2800361A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66338B4715276C2800361A72 /* ViewController.m */; };
+		66338B501527732D00361A72 /* fly1omin.png in Resources */ = {isa = PBXBuildFile; fileRef = 66338B4E1527732D00361A72 /* fly1omin.png */; };
+		66338B511527732D00361A72 /* fly4mino.png in Resources */ = {isa = PBXBuildFile; fileRef = 66338B4F1527732D00361A72 /* fly4mino.png */; };
+		66338B9715278DFA00361A72 /* TextAddEnReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66338B9615278DFA00361A72 /* TextAddEnReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,18 @@
 		66338B3115276C2800361A72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66338B3315276C2800361A72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66338B3515276C2800361A72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		66338B3915276C2800361A72 /* TextAddEn-Info.plist */ = {isa = PBXFileReference; path = "TextAddEn-Info.plist"; sourceTree = "<group>"; };
+		66338B3915276C2800361A72 /* TextAddEn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextAddEn-Info.plist"; sourceTree = "<group>"; };
 		66338B3B15276C2800361A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66338B3D15276C2800361A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		66338B3F15276C2800361A72 /* TextAddEn-Prefix.pch */ = {isa = PBXFileReference; path = "TextAddEn-Prefix.pch"; sourceTree = "<group>"; };
-		66338B4015276C2800361A72 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		66338B3F15276C2800361A72 /* TextAddEn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextAddEn-Prefix.pch"; sourceTree = "<group>"; };
+		66338B4015276C2800361A72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66338B4115276C2800361A72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		66338B4415276C2800361A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		66338B4615276C2800361A72 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		66338B4615276C2800361A72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		66338B4715276C2800361A72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66338B4E1527732D00361A72 /* fly1omin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly1omin.png; sourceTree = "<group>"; };
+		66338B4F1527732D00361A72 /* fly4mino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly4mino.png; sourceTree = "<group>"; };
+		66338B9615278DFA00361A72 /* TextAddEnReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextAddEnReadMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		66338B3715276C2800361A72 /* TextAddEn */ = {
 			isa = PBXGroup;
 			children = (
+				66338B9615278DFA00361A72 /* TextAddEnReadMe.txt */,
+				66338B4E1527732D00361A72 /* fly1omin.png */,
+				66338B4F1527732D00361A72 /* fly4mino.png */,
 				66338B4015276C2800361A72 /* AppDelegate.h */,
 				66338B4115276C2800361A72 /* AppDelegate.m */,
 				66338B4315276C2800361A72 /* MainStoryboard.storyboard */,
@@ -150,6 +159,9 @@
 			files = (
 				66338B3C15276C2800361A72 /* InfoPlist.strings in Resources */,
 				66338B4515276C2800361A72 /* MainStoryboard.storyboard in Resources */,
+				66338B501527732D00361A72 /* fly1omin.png in Resources */,
+				66338B511527732D00361A72 /* fly4mino.png in Resources */,
+				66338B9715278DFA00361A72 /* TextAddEnReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
